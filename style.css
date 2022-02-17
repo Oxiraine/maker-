@@ -1,0 +1,1047 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+body{
+  width:1440px;
+  height:2644px;
+  background-color:#080C20;
+}
+
+.logo-area{
+  display:flex;
+  width:120px;
+  height:35px;
+  margin-left:165px;
+  position:relative;
+  top:114px; 
+}
+
+@media(max-width: 375px){
+  .logo-area{
+    display:flex;
+    width:120px;
+    height:35px;
+    left:127px;
+    position:relative;
+    top:40px; 
+  }
+  }
+
+.hero-area {
+  position: relative;
+  top:249px;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  height:459px;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+}
+
+.right-hero-area{
+  position:absolute;
+  top:0px;
+  left: 1044px;
+  width:396px;
+  height:444px;
+}
+
+@media(width:375px){
+
+  .hero-area{
+    position: relative;
+    top:141px;
+    width:100%;
+    height:231px;
+  }
+  .right-hero-area{
+    position:absolute;
+    top:0px;
+    left:45%;
+    width:206px;
+    height:230px;
+  }  
+  .left-hero-area{
+    position:absolute;
+    top:0;
+    left:10px;
+    width:203px;
+    height:230px;
+  } 
+  .hero-text-area{
+    position:absolute;
+    top:421px;
+    left:-600px;
+    width: 327px;
+    height: 122px;
+}
+
+.hero-text-area h1{
+width: 327px;
+height: 122px;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+}
+.squiggle-image{
+  display:none;
+}
+
+p.hero-desc{
+  position:absolute;
+  left:24px;
+  top:566px;
+  width: 327px;
+  height: 100px;
+  }
+  img.scroll{
+    position:absolute;
+    width: 26px;
+    height: 42px;
+    margin-left:-280px;
+    top:932px;
+  }
+}
+
+.left-hero-area{
+  position:absolute;
+  top:0;
+  width:408px;
+  height:459px;
+}
+
+.squiggle-image{
+  position:absolute;
+  width:544px;
+  height:378px;
+  left:452px;
+  top:-17px;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.hero-text-area{
+  width:730px;
+  height:318px;
+  margin-left:355px;
+}
+
+
+
+.hero-text-area h1{
+top:88px;
+position:absolute;
+left:355px;
+width: 730px;
+height: 113px;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+
+span.color-text{
+color:#3EE9E5;
+}
+
+p.hero-desc{
+position:absolute;
+left:451px;
+top:225px;
+width: 540px;
+height: 75px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color:#777F98;
+}
+
+img.scroll{
+  position:absolute;
+  width: 26px;
+  height: 42px;
+  left:717px;
+  bottom:-137px;
+}
+
+.main-area{
+  position:relative;
+  left:165px;
+  width: 1110px;
+  height: 383px;
+  top:451px;
+}
+
+@media(max-width:375px){
+  .main-area{
+    position:absolute;
+    left:165px;
+    width: 327px;
+    height: 1134px;
+    top:1076px;
+  }
+  .row{
+    flex-direction:column;
+  }
+  .passions-image{
+    width:120px;
+    height:124px;
+    position:absolute;
+    left:210px;
+    top:0px;
+  }
+  .passions-desc{
+    width:327px;
+    height:25px;
+    position:absolute;
+    left:200px;
+    top:156px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .passions-text{
+  position: absolute;
+  width: 327px;
+  height: 50px;
+  left: 186px;
+  top: 210px;
+  }
+  .finance-image{
+  position: absolute;
+  width: 120px;
+  height: 123px;
+  left: 210px;
+  top: 354px;
+}
+.finance-desc{
+  position: absolute;
+  width: 327px;
+  height: 25px;
+  left: 200px;
+  top: 485px;
+}
+.finance-text{
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 186px;
+  top: 542px;
+}
+.lifestyle-image{
+  position: absolute;
+  width: 120px;
+  height: 124px;
+  left: 210px;
+  top: 684px;
+}
+.lifestyle-desc{
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 200px;
+  top: 810px;
+}
+.lifestyle-text{
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 186px;
+  top: 857px;
+}
+.car-image{
+  position: absolute;
+  width: 120px;
+  height: 123px;
+  left: 210px;
+  top: 969px;
+}
+.work-desc{ 
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 200px;
+  top: 1092px;
+}
+.work-text{
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 200px;
+  top: 1142px;
+}
+}
+
+.passions{
+  width:255px;
+  height:335px;
+}
+
+.passions-image{
+  width:160px;
+  height:164px; 
+  background: #093F68;border-radius: 45px;
+  padding:29px 32px 29px 40px;
+}
+
+.passions-desc{
+width:194px;
+height:25px;
+margin-top:48px;
+color: #ffffff;  
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+}
+
+.passions-text{
+width:255px;
+height:75px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #777F98;
+margin-top:23px;
+}
+
+.finance{
+  width:255px;
+  height:335px;
+  margin-left:30px;
+  margin-top:48px;
+}
+
+img.finance-image{
+  width:160px;
+  height:164px; 
+  background: #093F68;border-radius: 45px;
+  padding:38px 43px 37px 43px;
+}
+
+.finance-desc{
+    width:201px;
+    height:25px;
+    margin-top:48px;
+    color: #ffffff;  
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px; 
+}
+
+.finance-text{
+  width:255px;
+  height:75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777F98;
+  margin-top:23px;
+  }
+
+  
+.lifestyle{
+  width:255px;
+  height:335px;
+  margin-left:30px;
+}
+
+img.lifestyle-image{
+  width:160px;
+  height:164px; 
+  background: #093F68;border-radius: 45px;
+  padding:36px 40px 34px 40px;
+}
+
+.lifestyle-desc{
+  width:188px;
+  height:25px;
+  margin-top:48px;
+  color: #ffffff;  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px; 
+}
+
+.lifestyle-text{
+  width:255px;
+  height:75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777F98;
+  margin-top:23px;
+  }
+
+.work{
+    width:255px;
+    height:335px;
+    margin-left:30px;
+    margin-top:48px;
+}
+
+img.car-image{
+  width:160px;
+  height:164px; 
+  background: #093F68;border-radius: 45px;
+  padding:45px 28px 45px 28px;
+}
+
+.work-desc{
+  width:182px;
+  height:25px;
+  margin-top:48px;
+  color: #ffffff;  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px; 
+}
+
+.work-text{
+  width:255px;
+  height:75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777F98;
+  margin-top:23px; 
+}
+
+.pricing{
+position:relative;
+width: 540px;
+height: 118px;
+top:653px;
+left:450px;
+}
+
+@media(max-width:375px){
+  .pricing{
+  position: absolute;
+  width: 327px;
+  height: 135px;
+  left: 210px;
+  top: 2454px;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .left-card{
+  position: absolute;
+  width: 327px;
+  height: 459px;
+  left: 24px;
+  top: 1578px;
+  }
+  .right-card{
+    position:absolute;
+    width: 327px;
+    height: 481px;
+    left: 24px;
+    top: 2069px;
+  }
+}
+
+
+.pricing h2{
+position:absolute;
+left:120px;
+top:0px;
+width:300px;
+height:44px;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color:#ffffff;
+}
+
+.pricing-desc{
+position:relative;
+top:68px;
+width:540px;
+height:50px;
+padding-right:4px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #777F98;
+}
+
+.pricing-cards{
+position:relative;
+top:725px;
+left:260px;
+width: 920px;
+height: 482px;
+}
+
+.left-card-box{
+position:relative;
+top:46px;
+background: #093F68;
+border-radius: 8px;
+width:445px;
+height:425px;
+}
+
+.left-card{
+width: 445px;
+height: 448px;
+}
+
+.dip-toe{
+position:absolute;
+left:38px;
+top:-23px;
+width: 46px;
+height: 46px;
+}
+
+.free-card-name{
+position:relative;
+top:49px;
+left: 38px;
+width:125px;
+height:25px;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.free-card-text{
+position:relative;
+top:68px;
+left:38px;
+width:369px;
+height:50px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.card-type{
+position:relative;
+top:73px;
+left:38px;
+width:86px;
+height:55px;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 55px;
+color: #FFFFFF;
+}
+
+.free-offers{
+position:relative;
+top:92px;
+left:37px;
+width: 240px;
+height: 136px;
+}
+
+.unlimited{
+  width:200px;
+  height:25px;
+}
+
+.fa-check.first-free{
+width:11px;
+height:8px;
+color: #3EE9E5;
+}
+
+.unlimited p{
+  position:relative;
+  top:-24px;
+  margin-left:27px;
+  width:163px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  }
+
+.basic{
+  width:163px;
+  height:25px;
+}
+
+.fa-check.second-free{
+  width:11px;
+  position: relative;
+  top:12px;
+  height:8px;
+  color: #3EE9E5;
+  }
+
+.basic p{
+  position:relative;
+  top:-12px;
+  margin-left:27px;
+  width:165px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF; 
+}
+
+.limited{
+  width:240px;
+  height:25px;
+}
+
+.fa-check.third-free{
+  width:11px;
+  position:relative;
+  top:24px;
+  height:8px;
+  color: #3EE9E5;
+}
+
+.limited-desc{
+  position:relative;
+  top:0;
+  margin-left:27px;
+  width:250px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF; 
+}
+
+.per-transaction{
+  width:194px;
+  height:25px;
+}
+
+.fa-check.fourth-free{
+  width:11px;
+  position: relative;
+  top:36px;
+  height:8px;
+  color: #3EE9E5;
+}
+
+.per-desc{
+  position:relative;
+  top:12px;
+  margin-left:27px;
+  width:300px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF; 
+}
+
+
+.right-card{
+position:relative;
+left:30px;
+width: 445px;
+height: 482px;
+}
+
+.dive{
+position:relative;
+top:-33px;
+left:37px;
+width: 51px;
+height: 65px;
+}
+.right-card-box{
+position:relative;
+top:33px;
+border-radius: 8px;
+width: 445px;
+height: 449px;
+background-color: #3EE9E5;
+}
+
+.paid-card-name{
+position:relative;
+top:-10px;
+left:38px;
+width:130px;
+height: 25px;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+color: #080C20;
+}
+.paid-card-text{
+position:relative;
+top:9px;
+left:38px;
+width:369px;
+height:50px; 
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #080C20;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.amount{
+  position:relative;
+  left:38px;
+  top:14px;
+  width:141px;
+  height:55px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color:#080C20;
+}
+
+.per-month{
+  position:absolute;
+  top:175px;
+  margin-left:187px;
+  width:56px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #080C20;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.offers{
+  position: relative;
+  top:33px;
+  margin-left:38px;
+  width: 250px;
+  height: 136px;
+}
+
+.domain{
+  width:200px;
+  height:25px;
+}
+
+.domain-desc{
+  position:relative;
+  top:-24px;
+  margin-left:27px;
+  width:163px;
+  height:25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #080C20;
+}
+
+.fa-check.first-paid{
+  color: #093F68;
+  width:127px;
+  height:7px;
+}
+
+.analytics{
+  width:300px;
+  height:25px;
+}
+
+.analytics-desc{
+  position:relative;
+  top:-12px;
+  margin-left:27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #080C20;
+}
+
+.fa-check.second-paid{
+  position:relative;
+  top:12px;
+  color:#093F68;
+  width:127px;
+  height:7px;
+}
+
+.marketplace{
+  width:250px;
+  height:25px;
+}
+
+.marketplace-desc{
+  position:relative;
+  top:0;
+  margin-left:27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #080C20;
+}
+
+.fa-check.third-paid{
+  position:relative;
+  top:24px;
+  color:#093F68;
+  width:127px;
+  height:7px;
+}
+
+.discount{
+  width:250px;
+  height:25px;
+}
+
+.discount-desc{
+  position:relative;
+  top:12px;
+  margin-left:27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #080C20;
+}
+
+.fa-check.fourth-paid{
+  position:relative;
+  top:36px;
+  color:#093F68;
+  width:127px;
+  height:7px;
+}
+
+footer{
+  position:relative;
+  top:876px;
+  width: 100%;
+  height: 228px;
+}
+.footer-squiggle-image{
+  width:100%;
+  height:228px;
+  mix-blend-mode: normal;
+  opacity: 0.25
+}
+
+@media(max-width:375px){
+
+  .footer{
+position: absolute;
+width: 100%;
+height: 219px;
+top: 2069px;
+  }
+  .footer-squiggle-image{
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top:2069px;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  }
+  .footer-container{
+  position: relative;
+  width: 328px;
+  height: 218px;
+  left: 23px;
+  top:2069px;
+  }
+  .cta{
+    position:absolute;
+    top:2069px;
+    left:-160px;
+    width:328px;
+    height: 67px;
+  }
+  form{
+    width:327px;
+    height:120px;
+    position:absolute;
+    top:0px
+  }
+  .input-email{
+    position: relative;
+    top:2167px;
+    width: 327px;
+    height: 48px;
+    width:327px;
+    height:48px;
+  }
+
+  .submit-btn{
+    position:absolute;
+    width:327px;
+    height:48px;
+    top:32px;
+    left:0px;
+  }
+}
+
+.footer-container{
+  position:absolute;
+  top:52px;
+  left:359px;
+  width: 730px;
+  height: 134px;
+}
+
+.cta{
+width: 730px;
+height: 44px;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #FFFFFF;
+}
+
+form{
+margin-top:42px;
+margin-left:123px;
+width: 500px;
+height: 48px;
+}
+
+.input-email{
+width: 320px;
+height: 48px;
+border-radius:24px;
+background-color:#093F68;
+border: 2px solid #093f68;
+outline:none;
+box-shadow:none;
+}
+
+input[type=text]:focus{
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 25px;
+padding-left:18px;
+background-color:#093F68;
+color:#ffffff;
+border: 2px solid #3EE9E5;
+box-sizing: border-box;
+border-radius: 24px;
+outline:none;
+cursor:pointer;
+}
+
+input[value]{
+  padding-left:18px;
+  color:#ffffff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+::placeholder{
+  padding-left:-18px;
+  height:25px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  outline:none;
+  box-shadow:none;
+}
+
+.submit-btn{
+  position:absolute;
+  top:86px;
+  left:476px;
+  width:140px;
+  height:48px;
+  border:none;
+  background-color: #3EE9E5;
+  border-radius: 24px;
+  color: #093F68;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.submit-btn:hover{
+cursor:pointer;
+border: 2px solid #3EE9E5;
+border-radius: 24px;
+background-color:#080C20;
+color:#ffffff;
+}
+
+.submit-btn:active{
+  cursor:pointer;
+  border: 2px solid #3EE9E5;
+  border-radius: 24px;
+  background-color:#080C20; 
+  color:#FFFFFF;
+}
+
+
+#invalid-feedback{
+padding-top:4px;
+padding-left:18px;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+color:#ff2965;
+display:none;
+}
